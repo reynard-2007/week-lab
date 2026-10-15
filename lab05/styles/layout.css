@@ -11,9 +11,12 @@ last modified: 14/10/2026
 description: lab05.html
 
 */
-
+ nav {
+    display: block;
+ }
 nav li {
-    display: inline-block;
+    display: inline;
+   
 }
 
 aside:hover {
@@ -22,6 +25,7 @@ aside:hover {
 
 nav ul { 
     list-style:none;
+    
 }
 
 aside {
@@ -114,15 +118,3 @@ footer p:last-child {
     text-align: right;
 }
 
-#lists, #images, #tables, #hyperlinks {
-    width: 50%;
-    text-align: center;
-}
-
-ol, ul, dl {
-    text-align: left;
-}
-
-article {
-    min-width: 30em;
-}

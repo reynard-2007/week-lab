@@ -38,13 +38,13 @@
     }
 
     nav ul li{
-        width: 100%; 
+        width: 100%; /* tại sao? vì chúng ta muốn mỗi mục điều hướng chiếm toàn bộ chiều rộng của container của nó trên màn hình nhỏ hơn */
     }
 
     #section1, #section2, #section3{
         margin: 0;
         float: none;
-        width: 90%;
+        width: 90%; /* tại sao? vì chúng ta muốn mỗi phần nội dung chiếm toàn bộ chiều rộng của container của nó trên màn hình nhỏ hơn */
     }
 
     img {
@@ -53,6 +53,6 @@
     }
 
     article{
-        min-width: 300px;
+        min-width: 300px; /* tại sao? vì chúng ta muốn bài viết có chiều rộng tối thiểu trên các màn hình nhỏ hơn */
     }
 }
