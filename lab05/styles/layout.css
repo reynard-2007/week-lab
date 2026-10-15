@@ -83,6 +83,19 @@ footer {
     clear: both;
 }
 
+#lists, #images, #tables, #hyperlinks {
+    width: 50%;
+    text-align: center;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+article {
+    min-width: 30em;
+}
+
 footer p {
     display: inline-block;
     width: 33%;
