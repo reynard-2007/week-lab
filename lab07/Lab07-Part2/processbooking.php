@@ -4,13 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Booking confirmation">
 	<meta name="keywords" content="MiddleEarth, Tours, Rohan">
-	<meta name="author" content="Yuki">
+	<meta name="author" content="Khang">
 	<title>Booking Confirmation</title>
 </head>
 <body>
 <h1>Rohirrim Tour Booking Confirmation</h1>
 <?php
-	// Read a text field safely: returns "" if missing, escaped otherwise
 	function field($name) {
 		if (isset($_POST[$name])) {
 			return htmlspecialchars(trim($_POST[$name]));
